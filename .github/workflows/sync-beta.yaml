@@ -29,5 +29,6 @@ jobs:
 
       - name: Rebase beta to main
         run: |
+          git fetch
           git rebase origin/main
           git push
